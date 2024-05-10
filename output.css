@@ -911,6 +911,11 @@ video {
   font-weight: 400;
 }
 
+.text-blue-950 {
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+}
+
 .text-padiRed {
   --tw-text-opacity: 1;
   color: rgb(224 51 76 / var(--tw-text-opacity));
@@ -968,8 +973,8 @@ video {
     height: 15rem;
   }
 
-  .md\:h-96 {
-    height: 24rem;
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:w-40 {
@@ -978,6 +983,14 @@ video {
 
   .md\:w-48 {
     width: 12rem;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-3 {
@@ -1006,6 +1019,14 @@ video {
 
   .md\:gap-32 {
     gap: 8rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
   }
 
   .md\:rounded-2xl {
@@ -1098,5 +1119,11 @@ video {
   .md\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:border {
+    border-width: 1px;
   }
 }
