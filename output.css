@@ -691,6 +691,26 @@ video {
   width: 100%;
 }
 
+.max-w-40 {
+  max-width: 10rem;
+}
+
+.max-w-48 {
+  max-width: 12rem;
+}
+
+.max-w-5 {
+  max-width: 1.25rem;
+}
+
+.max-w-52 {
+  max-width: 13rem;
+}
+
+.max-w-60 {
+  max-width: 15rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -999,6 +1019,18 @@ video {
 
   .md\:w-9 {
     width: 2.25rem;
+  }
+
+  .md\:max-w-60 {
+    max-width: 15rem;
+  }
+
+  .md\:max-w-64 {
+    max-width: 16rem;
+  }
+
+  .md\:max-w-72 {
+    max-width: 18rem;
   }
 
   .md\:grid-cols-3 {
