@@ -16,9 +16,10 @@
 
     <main>
       <section
-        class="flex flex-col items-center justify-center text-white px-6 py-14 lg:px-28 lg:py-36 gap-20 lg:flex-row bg-padiRed border"
+        class="flex flex-col items-center justify-center text-white lg:py-56 lg:px-28 lg:flex-row bg-padiRed border"
       >
-        <div class="flex gap-8 w-full flex-col max-w-[580px]">
+      <div class="flex flex-col justify-center items-center gap-36 w-full  lg:flex-row">
+        <div class="flex flex-col gap-8 w-full lg:flex-col max-w-[580px]">
           <span class="font-inter font-normal text-2xl"
             >Introducing PetrolPadi!</span
           >
@@ -41,6 +42,7 @@
           </div>
         </div>
         <img class="lg:h-auto" src="./assets/GroupPhone.png" alt="phone" />
+      </div>
       </section>
 
       <section
@@ -161,7 +163,7 @@
         </div>
       </section>
 
-      <section class="px-6 py-28 lg:px-60 lg:py-28 flex flex-col gap-12 items-center justify-center border">
+      <section class="px-6 py-28 lg:px-60 lg:py-28 flex flex-col gap-12 w-full items-center justify-center ">
         <div class="flex gap-6 flex-col h-28 items-center justify-center">
           <h3 class="font-inter font-bold text-3xl text-center lg:text-5xl">
             Frequently asked questions
@@ -171,12 +173,22 @@
           >
         </div>
 
-        <div class="flex flex-col gap-7">
+        <div class="flex flex-col gap-7 lg:w-5/6 border items-center justify-center">
           <div
-            class="flex border-2 border-padiRed max-w-5xl rounded-xl lg:rounded-2xl lg:px-10 lg:py-8 p-4 gap-2 shadow-faqshadow"
+            class="flex  flex-col w-full border-2 lg:w-full border-padiRed  rounded-xl lg:rounded-2xl lg:px-10 lg:py-8 p-4 gap-2 shadow-faqshadow"
           >
-            <div class="flex w-full flex-col gap-2 border">
-              <div class="flex justify-between items-center ">
+          <div class="flex justify-between items-center ">
+            <h3 class="font-inter font-medium text-xl lg:text-xl">
+              A question that users might ask/have
+            </h3>
+            <span
+              class="w-12 h-12 bg-padiRed rounded-full flex items-center justify-center shrink-0"
+            >
+              <img src="./assets/arrowdown.png" alt="" />
+            </span>
+          </div>
+            <div class="flex  flex-col gap-2 ">
+              <!-- <div class="flex justify-between items-center ">
                 <h3 class="font-inter font-medium text-xl lg:text-xl">
                   A question that users might ask/have
                 </h3>
@@ -185,9 +197,9 @@
                 >
                   <img src="./assets/arrowdown.png" alt="" />
                 </span>
-              </div>
+              </div> -->
               <span
-                class="font-inter font-normal text-left text-base lg:text-lg lg:max-w-[735px]"
+                class="font-inter font-normal text-left text-base lg:text-lg lg:max-w-[730px]"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -195,37 +207,37 @@
               >
             </div>
           </div>
-          <div class="p-4 rounded-2xl shadow-faqminoshadow max-w-4xl lg:px-10 lg:py-10">
-            <div class="flex justify-between items-center border">
+          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:w-full lg:px-10 lg:py-10">
+            <div class="flex justify-between items-center ">
               <h3 class="font-inter font-medium text-xl">
                 A question that users might ask/have
               </h3>
               <span
-                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow"
+                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow shrink-0"
               >
                 <img class="" src="./assets/arrowright.png" alt="" />
               </span>
             </div>
           </div>
-          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10 max-w-4xl">
+          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10 lg:w-full">
             <div class="flex justify-between items-center">
               <h3 class="font-inter font-medium text-xl">
                 A question that users might ask/have
               </h3>
               <span
-                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow"
+                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow shrink-0"
               >
                 <img src="./assets/arrowright.png" alt="" />
               </span>
             </div>
           </div>
-          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10 max-w-4xl">
+          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10 lg:w-full">
             <div class="flex justify-between items-center">
               <h3 class="font-inter font-medium text-xl">
                 A question that users might ask/have
               </h3>
               <span
-                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow"
+                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow shrink-0"
               >
                 <img src="./assets/arrowright.png" alt="" />
               </span>
@@ -234,11 +246,13 @@
         </div>
       </section>
     </main>
-    <footer class="flex flex-col gap-3">
-      <hr class="" />
+    <footer class="flex flex-col gap-3 border border-t border-b-0">
+      <!-- <hr/> -->
       <div
-        class="flex flex-col p-6 gap-8 lg:flex-row lg:gap-32 items- justify-center lg:px-20 lg:py-6"
+        class="flex w-full flex-col p-6 gap-8 lg:flex-col lg:gap-6 lg:px-40 items-center justify-center bg-blue- "
       >
+      <hr>
+      <div class="flex bg-red-400 lg:w-full gap-32  justify-center">
         <div class="flex flex-col gap-6">
           <img class="w-20 h-20" src="./assets/logo2.png" alt="" />
           <span class="w-72 font-inter font-normal text-lg">
@@ -295,9 +309,33 @@
           >
         </div>
       </div>
-      <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center">
+          <hr class="w-full" />
+        </div>
+  
+        <div class="flex lg:items-center lg:justify-center lg:pb-4 p-5">
+          <div
+            class="flex text-left lg:justify-between lg:items-center lg:w-full lg:pr-20 lg:pl-20"
+          >
+            <span class="font-inter font-normal text-lg"
+              >Copyright &copy; 2023 PetrolPadi</span
+            >
+            <div
+              class="font-dmSansFont hidden lg:flex font-normal lg:gap-2 text-lg"
+            >
+              <span>All Rights Reserved </span>
+              <span>|</span>
+              <span class="text-padiRed">Terms and Conditions</span
+              ><span> | </span><span class="text-padiRed">Privacy Policy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="flex items-center justify-center">
         <hr class="w-[90%]" />
       </div>
+
       <div class="flex lg:items-center lg:justify-center lg:pb-4 p-5">
         <div
           class="flex text-left lg:justify-between lg:items-center lg:w-full lg:pr-20 lg:pl-20"
@@ -314,7 +352,7 @@
             ><span> | </span><span class="text-padiRed">Privacy Policy</span>
           </div>
         </div>
-      </div>
+      </div> -->
     </footer>
   </body>
 </html>
