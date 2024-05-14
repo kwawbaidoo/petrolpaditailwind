@@ -16,31 +16,31 @@
 
     <main>
       <section
-        class="flex flex-col items-center justify-center text-white px-6 py-14 lg:px-28 lg:py-36 gap-20 lg:flex-row bg-padiRed border "
+        class="flex flex-col items-center justify-center text-white px-6 py-14 lg:px-28 lg:py-36 gap-20 lg:flex-row bg-padiRed border"
       >
-        <div class="flex gap-8 w-full  flex-col max-w-xl border">
+        <div class="flex gap-8 w-full flex-col max-w-[580px]">
           <span class="font-inter font-normal text-2xl"
             >Introducing PetrolPadi!</span
           >
-          <h1
-            class="text-white font-bold font-inter text-3xl lg:text-5xl"
-          >
+          <h1 class="text-white font-bold font-inter text-3xl lg:text-5xl">
             Some really cool about the app
           </h1>
-          <span class="font-inter font-normal text-xl lg:text-xl "
+          <span class="font-inter font-normal text-xl lg:text-xl"
             >Describe exactly what your product or service does to solve this
             problem. Avoid using verbose words or phrases.</span
           >
           <div class="flex flex-col lg:flex-row gap-4">
-            <img
-              class="h-16 lg:h-12"
-              src="./assets/PlaystoreButton.png"
-              alt=""
-            />
-            <img class="h-16 lg:h-12" src="./assets/Button.png" alt="" />
+            <a class="h-14 w-72 bg-black gap-2 px-6 py-3 rounded-lg flex items-center justify-center" href="#">
+              <img src="./assets/playstorelogo.png" alt="" />
+              <span class="text-white text-base">Download on Google Play</span>
+            </a>
+            <a class="h-14 w-72 bg-black gap-2 px-6 py-3 rounded-lg flex items-center justify-center" href="#"
+              ><img class="h-6 w-5" src="./assets/appstorelogo.png" alt="" />
+              <span>Download now on App store</span>
+            </a>
           </div>
         </div>
-        <img class="lg:h-auto" src="./assets/GroupPhone.png" alt="" />
+        <img class="lg:h-auto" src="./assets/GroupPhone.png" alt="phone" />
       </section>
       <section
         class="w-full h-auto px-6 py-36 flex flex-col gap-20 items-center justify-center lg:px-28 lg:py-36"
@@ -69,10 +69,15 @@
               alt=""
             />
           </div>
-          <div class="bg-padicream rounded-2xl gap-10 pt-6  max-w-lg w-full h-fit relative">
+          <div
+            class="bg-padicream rounded-2xl gap-10 pt-6 max-w-lg w-full h-fit relative"
+          >
             <div class="flex flex-col gap-6">
-              <h2 class="font-inter font-bold text-2xl pl-6">Effortless Ordering</h2>
-              <span class="font-inter font-normal pl-6 text-sm max-w-72  lg:max-w-80 "
+              <h2 class="font-inter font-bold text-2xl pl-6">
+                Effortless Ordering
+              </h2>
+              <span
+                class="font-inter font-normal pl-6 text-sm max-w-72 lg:max-w-80"
                 >Explore various deposits and product options directly from your
                 mobile device. Experience the convenience of seamless
                 ordering</span
@@ -90,10 +95,15 @@
               <button>Send other request</button>
             </div>
           </div>
-          <div class="bg-padicream rounded-2xl gap-10 pt-6  max-w-lg  w-full h-auto relative">
-            <div class="flex flex-col gap-6  ">
-              <h2 class="font-inter font-bold text-2xl pl-6 ">Reliable Transport</h2>
-              <span class="font-inter font-normal pl-6 pr-1 text-sm max-w-72  lg:max-w-80 "
+          <div
+            class="bg-padicream rounded-2xl gap-10 pt-6 max-w-lg w-full h-auto relative"
+          >
+            <div class="flex flex-col gap-6">
+              <h2 class="font-inter font-bold text-2xl pl-6">
+                Reliable Transport
+              </h2>
+              <span
+                class="font-inter font-normal pl-6 pr-1 text-sm max-w-72 lg:max-w-80"
                 >Utilize Petroconnect for efficient product delivery. Request
                 reputable truck owners via the app for dependable and timely
                 service</span
@@ -103,9 +113,9 @@
               class="w-56 h-80 lg:w-48 lg:h-60 rounded-tl-2xl rounded-br-2xl float-right mt-6"
               src="./assets/RectangleFuel.png"
               alt=""
-            />  
+            />
             <img
-              class="absolute top-44 left-16 lg:top-40  lg:left-14"
+              class="absolute top-44 left-16 lg:top-40 lg:left-14"
               src="./assets/Frame11.png"
               alt=""
             />
@@ -113,9 +123,7 @@
         </div>
       </section>
 
-      <section
-        class="lg:px-20 lg:py-28 hidden lg:flex "
-      >
+      <section class="lg:px-20 lg:py-28 hidden lg:flex">
         <div
           class="h-96 w-full bg-padiRed rounded-2xl border border-red-500 p-14 flex items-center justify-between"
         >
@@ -146,10 +154,7 @@
         </div>
       </section>
 
-
-      <section
-        class="px-6 py-28 lg:px-52 lg:py-16 flex flex-col gap-12 border"
-      >
+      <section class="px-6 py-28 lg:px-52 lg:py-16 flex flex-col gap-12 border">
         <div class="flex gap-6 flex-col h-28 items-center justify-center">
           <h3 class="font-inter font-bold text-3xl text-center lg:text-5xl">
             Frequently asked questions
@@ -159,7 +164,7 @@
           >
         </div>
 
-        <div class="flex flex-col gap-7 ">
+        <div class="flex flex-col gap-7">
           <div
             class="flex border-2 w-full lg:w-full border-padiRed rounded-xl lg:rounded-2xl lg:px-8 lg:py-10 p-4 gap-2 shadow-faqshadow"
           >
@@ -175,7 +180,7 @@
                 </span>
               </div>
               <span
-                class="font-inter font-normal text-left text-base lg:text-lg lg:mr-10 "
+                class="font-inter font-normal text-left text-base lg:text-lg lg:mr-10"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -189,7 +194,7 @@
                 A question that users might ask/have
               </h3>
               <span
-                class="w-12 h-12  bg-white rounded-full flex items-center justify-center shadow-faqminoshadow"
+                class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-faqminoshadow"
               >
                 <img class="" src="./assets/arrowright.png" alt="" />
               </span>
