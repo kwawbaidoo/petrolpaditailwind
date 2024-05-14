@@ -124,26 +124,32 @@
         </div>
       </section>
 
-      <section class="lg:px-20 lg:py-28 hidden lg:flex">
+      <section class="lg:px-20 lg:py-28 hidden lg:flex ">
         <div
-          class="h-96 w-full bg-padiRed rounded-2xl border border-red-500 p-14 flex items-center justify-between"
+          class="w-full bg-padiRed rounded-2xl border border-red-500 p-14 flex items-center justify-between"
         >
-          <div class="w-full flex gap-6 flex-col">
-            <div class="flex flex-col gap-6">
+          <div class="w-full flex gap-6 flex-col  flex-1 max-w-lg">
+            <div class="flex flex-col gap-6 ">
               <h3
                 class="lg:font-inter lg:font-semibold lg:text-3xl lg:text-white"
               >
                 Download the app to get started
               </h3>
               <span
-                class="max-w-[520px] h-14 font-inter text-xl text-white font-normal"
+                class="max-w- h-14 font-inter lg:text-xl text-white font-normal "
                 >Describe exactly what your product or service does to solve
                 this problem. Avoid using verbose words or phrases.
               </span>
             </div>
             <div class="flex gap-4">
-              <img class="w-44 h-14" src="./assets/Googlebtn.png" alt="" />
-              <img class="w-44 h-14" src="./assets/AppButton.png" alt="" />
+              <a href="#" class="px-6 py-3 flex items-center justify-center gap-2 rounded-lg bg-black">
+                <img src="./assets/googlestore.png" alt="">
+                <span class="text-white font-inter font-medium text-base">Google Play</span>
+              </a>
+            <a href="#" class="px-6 py-3 flex items-center justify-center gap-2 rounded-lg bg-black">
+              <img src="./assets/applogo.png" alt="">
+              <span class="text-white font-inter font-medium text-base">App store</span>
+            </a>
             </div>
           </div>
           <div class="flex flex-col items-center justify-center gap-4">
@@ -155,7 +161,7 @@
         </div>
       </section>
 
-      <section class="px-6 py-28 lg:px-52 lg:py-16 flex flex-col gap-12 border">
+      <section class="px-6 py-28 lg:px-60 lg:py-28 flex flex-col gap-12 items-center justify-center border">
         <div class="flex gap-6 flex-col h-28 items-center justify-center">
           <h3 class="font-inter font-bold text-3xl text-center lg:text-5xl">
             Frequently asked questions
@@ -167,10 +173,10 @@
 
         <div class="flex flex-col gap-7">
           <div
-            class="flex border-2 w-full lg:w-full border-padiRed rounded-xl lg:rounded-2xl lg:px-8 lg:py-10 p-4 gap-2 shadow-faqshadow"
+            class="flex border-2 border-padiRed max-w-5xl rounded-xl lg:rounded-2xl lg:px-10 lg:py-8 p-4 gap-2 shadow-faqshadow"
           >
-            <div class="flex flex-col gap-2">
-              <div class="flex justify-between items-center">
+            <div class="flex w-full flex-col gap-2 border">
+              <div class="flex justify-between items-center ">
                 <h3 class="font-inter font-medium text-xl lg:text-xl">
                   A question that users might ask/have
                 </h3>
@@ -181,7 +187,7 @@
                 </span>
               </div>
               <span
-                class="font-inter font-normal text-left text-base lg:text-lg lg:mr-10"
+                class="font-inter font-normal text-left text-base lg:text-lg lg:max-w-[735px]"
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -189,8 +195,8 @@
               >
             </div>
           </div>
-          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10">
-            <div class="flex justify-between items-center">
+          <div class="p-4 rounded-2xl shadow-faqminoshadow max-w-4xl lg:px-10 lg:py-10">
+            <div class="flex justify-between items-center border">
               <h3 class="font-inter font-medium text-xl">
                 A question that users might ask/have
               </h3>
@@ -201,7 +207,7 @@
               </span>
             </div>
           </div>
-          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10">
+          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10 max-w-4xl">
             <div class="flex justify-between items-center">
               <h3 class="font-inter font-medium text-xl">
                 A question that users might ask/have
@@ -213,7 +219,7 @@
               </span>
             </div>
           </div>
-          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10">
+          <div class="p-4 rounded-2xl shadow-faqminoshadow lg:px-10 lg:py-10 max-w-4xl">
             <div class="flex justify-between items-center">
               <h3 class="font-inter font-medium text-xl">
                 A question that users might ask/have
