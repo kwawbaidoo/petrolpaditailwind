@@ -1459,6 +1459,10 @@ video {
     width: 91.666667%;
   }
 
+  .lg\:w-3 {
+    width: 0.75rem;
+  }
+
   .lg\:max-w-72 {
     max-width: 18rem;
   }
@@ -1613,6 +1617,26 @@ video {
 
   .lg\:max-w-\[730px\] {
     max-width: 730px;
+  }
+
+  .lg\:max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .lg\:max-w-\[6\] {
+    max-width: 6;
+  }
+
+  .lg\:max-w-\[685px\] {
+    max-width: 685px;
+  }
+
+  .lg\:max-w-\[6px\] {
+    max-width: 6px;
+  }
+
+  .lg\:max-w-\[660px\] {
+    max-width: 660px;
   }
 
   .lg\:grid-cols-3 {
