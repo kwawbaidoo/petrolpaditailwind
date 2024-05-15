@@ -1524,6 +1524,34 @@ video {
     top: 183px;
   }
 
+  .lg\:top-\[280px\] {
+    top: 280px;
+  }
+
+  .lg\:top-\[2px\] {
+    top: 2px;
+  }
+
+  .lg\:top-\[205px\] {
+    top: 205px;
+  }
+
+  .lg\:top-\[209px\] {
+    top: 209px;
+  }
+
+  .lg\:top-\[211px\] {
+    top: 211px;
+  }
+
+  .lg\:top-\[215px\] {
+    top: 215px;
+  }
+
+  .lg\:top-72 {
+    top: 18rem;
+  }
+
   .lg\:mr-10 {
     margin-right: 2.5rem;
   }
