@@ -748,6 +748,10 @@ video {
   width: fit-content;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-72 {
   max-width: 18rem;
 }
@@ -1449,6 +1453,10 @@ video {
   .lg\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .lg\:w-11\/12 {
+    width: 91.666667%;
   }
 
   .lg\:max-w-72 {
