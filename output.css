@@ -1865,6 +1865,10 @@ video {
     max-width: 660px;
   }
 
+  .lg\:max-w-96 {
+    max-width: 24rem;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
