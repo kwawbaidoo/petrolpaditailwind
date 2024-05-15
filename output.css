@@ -1113,6 +1113,10 @@ video {
   max-width: 1024px;
 }
 
+.max-w-\[1220px\] {
+  max-width: 1220px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1296,6 +1300,11 @@ video {
 .bg-blue-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .p-14 {
